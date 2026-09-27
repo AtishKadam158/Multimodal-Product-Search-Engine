@@ -1,0 +1,56 @@
+================================================================================
+  MULTIMODAL SEARCH ENGINE — SLURM COMMANDS
+================================================================================
+
+--- STEP 1: Request a GPU node ---
+srun --gres=gpu:v100:1 --mem=32G --cpus-per-task=4 --time=00:30:00 --pty bash
+
+--- STEP 2: Setup (first time only) ---
+cd ~/multimodal-search
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+--- STEP 3: Activate environment (every time) ---
+cd ~/multimodal-search
+source venv/bin/activate
+export DEVICE=cuda
+
+--- STEP 4: Download dataset (~2-5 min) ---
+python scripts/download_dataset.py
+
+--- STEP 5: Generate embeddings (~2-3 min on V100) ---
+python scripts/generate_embeddings.py
+
+--- STEP 6: Build Qdrant index (~15 sec) ---
+python scripts/build_index.py
+
+--- STEP 7: Run demo search (prints results to console) ---
+python scripts/demo_search.py --demo
+python scripts/demo_search.py --query "dog playing in a park"
+python scripts/demo_search.py --query "person riding a bicycle" --method hybrid+reranker
+python scripts/demo_search.py --image data/images/000000179765.jpg
+python scripts/demo_search.py --query "at night" --image data/images/000000179765.jpg --save-images
+
+--- STEP 8: Run evaluation (BM25 vs Dense vs Hybrid vs Reranker) ---
+python scripts/evaluate.py --k 10
+
+--- STEP 9: Run benchmark (latency + GPU performance) ---
+python scripts/benchmark.py --num-queries 100
+
+--- STEP 10: Run tests ---
+python -m pytest tests/ -v
+
+================================================================================
+  OUTPUT FILES
+================================================================================
+results/evaluation.csv    — Recall/Precision/MRR/NDCG comparison table
+results/benchmark.csv     — Latency (Mean/P50/P95/P99) per component
+results/search_results.csv — Last search query results
+
+================================================================================
+  OR: Submit as a batch job (no interactive session)
+================================================================================
+sbatch slurm_run.sh
+squeue -u $USER
+cat slurm_logs/job_*.out

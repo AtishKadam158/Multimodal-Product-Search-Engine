@@ -1,0 +1,202 @@
+[
+    {
+        "query": "dog playing in a park",
+        "relevant_ids": [86220, 397133, 309022, 579321, 463618]
+    },
+    {
+        "query": "person riding a bicycle",
+        "relevant_ids": [37777, 87038, 174482, 360951, 406611]
+    },
+    {
+        "query": "a plate of food on a table",
+        "relevant_ids": [89296, 113235, 189436, 360137, 463730]
+    },
+    {
+        "query": "people eating at a table",
+        "relevant_ids": [284445, 370711, 271997, 173004, 361551]
+    },
+    {
+        "query": "cat sitting on a couch",
+        "relevant_ids": [222991, 460841, 104572, 530854, 369370]
+    },
+    {
+        "query": "car parked on the street",
+        "relevant_ids": [328757, 296284, 397327, 514508, 350023]
+    },
+    {
+        "query": "airplane flying in the sky",
+        "relevant_ids": [72813, 97230, 284282, 310622, 323151]
+    },
+    {
+        "query": "boats on the water",
+        "relevant_ids": [16439, 166391, 284991, 357737, 462565]
+    },
+    {
+        "query": "person playing tennis",
+        "relevant_ids": [71226, 224200, 263594, 341828, 428454]
+    },
+    {
+        "query": "person surfing a wave",
+        "relevant_ids": [6763, 60760, 100238, 319535, 367095]
+    },
+    {
+        "query": "child flying a kite",
+        "relevant_ids": [48153, 52017, 125426, 310862, 519688]
+    },
+    {
+        "query": "group of people on the beach",
+        "relevant_ids": [6763, 60760, 166391, 319535, 367095]
+    },
+    {
+        "query": "a bird sitting on a branch",
+        "relevant_ids": [22479, 110042, 153299, 227686, 368212]
+    },
+    {
+        "query": "pizza on a table",
+        "relevant_ids": [46252, 214200, 369370, 444440, 530854]
+    },
+    {
+        "query": "a train on the tracks",
+        "relevant_ids": [22371, 102707, 168330, 283113, 403817]
+    },
+    {
+        "query": "a laptop on a desk",
+        "relevant_ids": [11813, 23230, 150417, 311303, 451043]
+    },
+    {
+        "query": "a horse running in a field",
+        "relevant_ids": [3255, 45229, 155179, 275198, 558854]
+    },
+    {
+        "query": "traffic light on a street corner",
+        "relevant_ids": [89670, 143998, 159282, 328757, 514508]
+    },
+    {
+        "query": "a person skiing down a slope",
+        "relevant_ids": [11760, 88269, 174004, 228214, 475732]
+    },
+    {
+        "query": "a bus driving on the road",
+        "relevant_ids": [18380, 113867, 138979, 252776, 356387]
+    },
+    {
+        "query": "cows grazing in a field",
+        "relevant_ids": [14439, 78959, 140270, 234779, 347265]
+    },
+    {
+        "query": "a person holding an umbrella",
+        "relevant_ids": [87476, 177159, 289229, 395801, 554266]
+    },
+    {
+        "query": "a sandwich on a plate",
+        "relevant_ids": [68409, 110638, 245764, 360137, 565045]
+    },
+    {
+        "query": "elephants walking together",
+        "relevant_ids": [35963, 73702, 179765, 394940, 416256]
+    },
+    {
+        "query": "motorcycles parked on the street",
+        "relevant_ids": [155154, 179765, 289229, 348881, 515289]
+    },
+    {
+        "query": "a person holding a cell phone",
+        "relevant_ids": [11760, 153299, 217285, 371677, 541880]
+    },
+    {
+        "query": "a bathroom with a toilet and sink",
+        "relevant_ids": [58898, 117908, 181303, 320052, 449996]
+    },
+    {
+        "query": "sheep in a grassy field",
+        "relevant_ids": [7386, 62747, 148707, 257864, 383386]
+    },
+    {
+        "query": "a clock tower on a building",
+        "relevant_ids": [29596, 163640, 227044, 371677, 504415]
+    },
+    {
+        "query": "a person skateboarding",
+        "relevant_ids": [86408, 176037, 360661, 388056, 508101]
+    },
+    {
+        "query": "a giraffe standing in a zoo",
+        "relevant_ids": [106140, 189436, 217285, 356387, 514508]
+    },
+    {
+        "query": "kitchen with a stove and oven",
+        "relevant_ids": [7278, 159399, 226903, 363207, 464786]
+    },
+    {
+        "query": "a bridge over water",
+        "relevant_ids": [16439, 166391, 284991, 319535, 462565]
+    },
+    {
+        "query": "someone snowboarding",
+        "relevant_ids": [11760, 88269, 174004, 228214, 475732]
+    },
+    {
+        "query": "a couple of zebras in the wild",
+        "relevant_ids": [7386, 73702, 106140, 257864, 383386]
+    },
+    {
+        "query": "a vase of flowers on a table",
+        "relevant_ids": [32861, 104572, 206411, 395633, 530099]
+    },
+    {
+        "query": "a fire hydrant on the sidewalk",
+        "relevant_ids": [89670, 143998, 159282, 328757, 514508]
+    },
+    {
+        "query": "people walking on a sidewalk",
+        "relevant_ids": [89670, 143998, 177159, 289229, 554266]
+    },
+    {
+        "query": "a bear in the forest",
+        "relevant_ids": [35963, 73702, 179765, 394940, 416256]
+    },
+    {
+        "query": "a baseball player batting",
+        "relevant_ids": [15335, 71226, 263594, 341828, 428454]
+    },
+    {
+        "query": "a couch in a living room",
+        "relevant_ids": [222991, 460841, 104572, 530854, 369370]
+    },
+    {
+        "query": "a bed in a bedroom",
+        "relevant_ids": [58898, 117908, 181303, 320052, 449996]
+    },
+    {
+        "query": "a stop sign on the road",
+        "relevant_ids": [89670, 143998, 159282, 328757, 514508]
+    },
+    {
+        "query": "a man with a tie",
+        "relevant_ids": [284445, 370711, 271997, 217285, 371677]
+    },
+    {
+        "query": "people sitting on a bench",
+        "relevant_ids": [87476, 177159, 289229, 395801, 554266]
+    },
+    {
+        "query": "a truck on the highway",
+        "relevant_ids": [18380, 113867, 138979, 252776, 356387]
+    },
+    {
+        "query": "wine glasses on a table",
+        "relevant_ids": [89296, 113235, 189436, 360137, 463730]
+    },
+    {
+        "query": "a surfboard on the beach",
+        "relevant_ids": [6763, 60760, 100238, 319535, 367095]
+    },
+    {
+        "query": "a woman holding a tennis racket",
+        "relevant_ids": [71226, 224200, 263594, 341828, 428454]
+    },
+    {
+        "query": "a hot dog with ketchup",
+        "relevant_ids": [68409, 110638, 245764, 360137, 565045]
+    }
+]
